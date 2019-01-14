@@ -1,0 +1,4 @@
+/mochawesome-report/
+/.idea/
+/.vscode/
+node_modules

@@ -1,0 +1,27 @@
+{
+  "name": "gitter-selenium-add-user",
+  "version": "1.0.0",
+  "description": "Add users to private group using testing framework and selenium webdriver because Gitter doesn't have API for this",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter mochawesome --reporter-options autoOpen=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmk1111/gitter-selenium-add-user.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmk1111/gitter-selenium-add-user/issues"
+  },
+  "homepage": "https://github.com/dmk1111/gitter-selenium-add-user#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^2.45.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
